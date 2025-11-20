@@ -6,7 +6,7 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null)
 
   // Generate image paths
-  const images = Array.from({ length: 40 }, (_, i) => `/Images/image${i + 1}.png`)
+  const images = Array.from({ length: 40 }, (_, i) => `/images_temp/image${i + 1}.png`)
 
   const content = {
     ar: {
@@ -95,7 +95,7 @@ function App() {
       <section className="hero">
         <div className="hero-content">
           <div className="logo-container">
-            <img src="/Images/logo.png" alt="Logo" className="logo" />
+            <img src="/images_temp/logo.png" alt="Logo" className="logo" />
           </div>
           <h1 className="hero-title">{t.title}</h1>
           <p className="hero-subtitle">{t.subtitle}</p>
