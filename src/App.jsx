@@ -6,7 +6,7 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null)
 
   // Generate image paths
-  const images = Array.from({ length: 45 }, (_, i) => `/images_temp/image${i + 1}.png`)
+  const images = Array.from({ length: 57 }, (_, i) => `/images_temp/image${i + 1}.png`)
 
   const content = {
     ar: {
